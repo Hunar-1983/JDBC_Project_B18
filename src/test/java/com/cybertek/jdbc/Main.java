@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) throws SQLException {
         //Replace the IP with your own IP address
-        String connectionStr = "jdbc:oracle:thin:@52.71.242.164:1521:XE";
+        String connectionStr = "jdbc:oracle:thin:@3.81.133.103:1521:XE";
         String username = "hr";
         String password = "hr";
 

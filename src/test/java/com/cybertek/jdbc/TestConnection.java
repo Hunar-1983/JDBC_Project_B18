@@ -11,8 +11,8 @@ public class TestConnection {
     @Test
     public void connectionTest(){
         System.out.println("Testing connection");
-        String connectionStr = "jdbc:oracle:thin:@52.71.242.164:1521:XE";
-        String username = "har";
+        String connectionStr = "jdbc:oracle:thin:@3.81.133.103:1521:XE";
+        String username = "hr";
         String password = "hr";
 
         // GETTING DATABASE CONNECTION TO THE SERVER
