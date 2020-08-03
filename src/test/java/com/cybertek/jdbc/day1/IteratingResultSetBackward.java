@@ -27,6 +27,7 @@ public class IteratingResultSetBackward {
         System.out.println("------------- more moving -------------");
         // how to move to second row from here
         rs.absolute(2);
+        System.out.println(  "Currently I should be at the second row " + rs.getRow()  );
         System.out.println(   rs.getString(1) + "   "+ rs.getString(2)   );
 
         rs.first(); // to move to the first row
@@ -35,6 +36,12 @@ public class IteratingResultSetBackward {
         rs.last(); // to move to the last row
         System.out.println(   rs.getString(1) + "   "+ rs.getString(2)   );
 
+        // how do i know which row number I am right now at this location
+        // getRow() return the row number
+        System.out.println(  "rs.getRow()  =  " + rs.getRow()   );
+        // there is no count method in ResultSet
+        // so in order to get the row count of the resultset
+        // just return the last row number by moving cursor to last row and call getRow method
 
 
 
